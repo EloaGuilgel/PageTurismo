@@ -1,0 +1,259 @@
+/* === ESTILO GERAL === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #faf0dc; /* bege claro */
+  color: #3e2c1c; /* marrom escuro */
+  line-height: 1.6;
+}
+
+/* === CABEÇALHO === */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  background-color: transparent;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3e2c1c;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #c36a36; /* laranja terroso */
+}
+
+/* === SEÇÃO HERO === */
+.hero {
+  background: url("assets/explore.jpg") center/cover no-repeat;
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding-left: 60px;
+  max-width: 500px;
+}
+
+.hero-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #c36a36;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #a45528;
+}
+
+/* === SEÇÃO SOBRE NÓS === */
+#sobrenós {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+#sobrenós h1 {
+  font-size: 32px;
+  font-weight: 700;
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+}
+
+#sobrenós p {
+  font-size: 18px;
+  max-width: 700px;
+  flex: 1;
+}
+
+/* === SEÇÃO DESTINOS === */
+#destinos {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 60px;
+}
+
+#destinos h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.destinos-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 15px 0;
+  color: #3e2c1c;
+  font-size: 18px;
+}
+
+/* === SEÇÃO CONTATOS === */
+#contatos {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 60px;
+  text-align: left;
+}
+
+#contatos h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#contatos p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn2 {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #c36a36;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: #a45528;
+}
+
+/* === RODAPÉ (opcional) === */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #c36a36;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* === RESPONSIVIDADE === */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero {
+    height: 400px;
+  }
+
+  .hero-content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero-content h2 {
+    font-size: 36px;
+  }
+
+  #sobrenós {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .destinos-container {
+    justify-content: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
