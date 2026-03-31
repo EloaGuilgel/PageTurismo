@@ -1,7 +1,7 @@
 # PageTurismo
 
 <p align="center">
-  <img src="./assets/readme-cover.png" alt="Preview do projeto PageTurismo" />
+  <img src="./assets/readme-cover.gif" alt="Preview animado do projeto PageTurismo" />
 </p>
 
 <p align="center">
@@ -78,10 +78,3 @@ O layout foi construído com foco em simplicidade e boa apresentação visual:
 
 Se preferir, também é possível usar a extensão `Live Server` no VS Code para visualizar a página com atualização automática.
 
-## Ideias de evolução
-
-- adicionar links reais no menu e nos botões;
-- criar uma seção com mais destinos em grid;
-- incluir animações suaves na entrada dos cards;
-- transformar os CTAs em formulários ou páginas internas;
-- integrar a landing page com um sistema de reservas ou contato.
