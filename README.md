@@ -71,16 +71,6 @@ O layout foi construído com foco em simplicidade e boa apresentação visual:
 - CSS Grid
 - Flexbox
 
-## Como visualizar localmente
 
-1. Clone este repositório.
-2. Abra o arquivo `index.html` no navegador.
 
-Se preferir, também é possível usar a extensão `Live Server` no VS Code para visualizar a página com atualização automática.
-nos em grid;
 
-<<<<<<< HEAD
-=======
-- transformar os CTAs em formulários ou páginas internas;
-- integrar a landing page com um sistema de reservas ou contato.
->>>>>>> a8c5ba2040a28150d6ef65b53f481e94c0c63393
