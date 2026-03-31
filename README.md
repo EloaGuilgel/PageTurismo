@@ -77,11 +77,7 @@ O layout foi construído com foco em simplicidade e boa apresentação visual:
 2. Abra o arquivo `index.html` no navegador.
 
 Se preferir, também é possível usar a extensão `Live Server` no VS Code para visualizar a página com atualização automática.
+nos em grid;
 
-## Ideias de evolução
-
-- adicionar links reais no menu e nos botões;
-- criar uma seção com mais destinos em grid;
-- incluir animações suaves na entrada dos cards;
 - transformar os CTAs em formulários ou páginas internas;
 - integrar a landing page com um sistema de reservas ou contato.
